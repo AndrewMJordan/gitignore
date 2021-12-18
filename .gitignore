@@ -13,5 +13,5 @@ alpha
 /*/*/*/delta
 
 # Ignore files/folders named 'echo' except in 'site/content'
-.echo
+/**/echo
 !/site/content/**/echo
