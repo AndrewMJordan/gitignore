@@ -1,0 +1,17 @@
+# Ignore files/folders with path deeper or same as gitignore
+alpha
+# is equivalent to:
+/**/alpha
+
+# Ignore files/folders with path same as gitignore
+/bravo
+
+# Ignore files/folders with path 1 level deeper than gitignore
+/*/charlie
+
+# Ignore files/folders with path 3 levels deeper than gitignore
+/*/*/*/delta
+
+# Ignore files/folders named 'echo' except in 'site/content'
+echo
+!/site/content/**/echo
