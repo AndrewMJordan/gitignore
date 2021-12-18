@@ -6,7 +6,7 @@ Run the following to reapply the gitignore:
 $ rm -rf .git && git init
 ```
 
-Open this repository in Gitpod to leverage VSCode file color decorations:
+See this repository with file color decorations in VSCode:
 
 ![image](https://user-images.githubusercontent.com/48300131/146652734-f389e4d7-0c71-4ba0-97eb-d17e2ecedef1.png)
 
